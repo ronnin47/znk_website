@@ -1,3 +1,6 @@
+import mitamaDorada from "../../assets/mitamaDorada.png";
+
+
 
 const Footer = () => {
   return (
@@ -8,29 +11,40 @@ const Footer = () => {
         {/* CONTENIDO PRINCIPAL */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 pb-8">
 
-          {/* MARCA */}
-          <div className="space-y-3">
-            <div className="flex items-center gap-3">
-              <div className="w-9 h-9 flex items-center justify-center bg-[#29232F] border border-[#66516F] rounded-sm">
-                <span className="text-[#D9B95B] text-xl font-bold">
-                  Z
-                </span>
-              </div>
+         
+{/* MARCA */}
+<div className="space-y-3">
+  <div className="flex items-center gap-3">
 
-              <div>
-                <h2 className="text-white font-bold tracking-[0.2em] text-lg">
-                  ZNK
-                </h2>
-                <p className="text-[9px] tracking-widest text-gray-500">
-                  FANTASY RPG WORLD
-                </p>
-              </div>
-            </div>
+    <div className="flex flex-col items-center justify-center gap-0.5">
+      <img
+        src={mitamaDorada}
+        alt="Mitama"
+        className="w-8 h-8 object-contain"
+      />
 
-            <p className="text-xs text-gray-500 leading-relaxed max-w-xs">
-              Un universo de historias, personajes y aventuras por descubrir.
-            </p>
-          </div>
+      <span className="text-white font-bold tracking-[0.15em] text-[9px] leading-none">
+        ZNK
+      </span>
+    </div>
+
+    <div className="flex flex-col">
+      <h2 className="text-white font-bold tracking-[0.15em] text-sm leading-tight">
+        ZEPIRO NO KIOKU
+      </h2>
+
+      <span className="text-[10px] tracking-wider text-gray-400">
+        ゼピロの思い出
+      </span>
+    </div>
+
+  </div>
+
+  <p className="text-xs text-gray-500 leading-relaxed max-w-xs">
+    Un universo de historias, personajes y aventuras por descubrir.
+  </p>
+</div>
+
 
           {/* NAVEGACIÓN */}
           <div>

@@ -173,7 +173,7 @@ const Header = () => {
 
           <div>
             <span className="text-[10px] tracking-[0.25em] text-[#D9B95B]">
-              ZNK UNIVERSE
+              ZNK 
             </span>
 
             <h2 className="text-white text-lg font-semibold mt-1">

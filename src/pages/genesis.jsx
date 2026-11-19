@@ -6,6 +6,7 @@ import tresHermanos from "../assets/images/tresHermanos.jpg";
 import omikami from "../assets/images/omikami.jpg";
 import { Section } from "../components/sections/section";
 import { SectionBackground } from "../components/sections/sectionBackground";
+import { PageContainer } from "../components/ui/pageContainer";
 
 
 const Genesis = () => {
@@ -20,9 +21,7 @@ const Genesis = () => {
     description="Una historia que comienza en el principio, con el caos y la posibilidad de todo."
 />
 
-<div className="ml-20 mr-20">
-
-
+  <PageContainer>
  <Section
         id="genesis"
         title="Genesis, era mitológica"
@@ -56,6 +55,10 @@ const Genesis = () => {
           Cuatro castas comenzaron a expandirse, linajes engendrados de los hijos de los cuatro dioses demonio, nacieron con el único fin de dar la victoria decisiva para los amos. Estos ejércitos demonio destruían todo a su paso, alimentando una guerra mitológica que jamás encontraría fin. Solo la desconocida inmensidad del plano podía contener tal apocalíptica guerra.
         </p>
       </Section>
+
+ </PageContainer>
+
+
 
 
    
@@ -97,6 +100,8 @@ const Genesis = () => {
   </p>
 </SectionBackground>
 
+
+<PageContainer>
 
 <Section
   id="nacimiento-hermanos"
@@ -156,9 +161,11 @@ const Genesis = () => {
     108 estrellas darían la esperanza.
   </p>
 </Section>
+</PageContainer>
 
 
-<Section
+<PageContainer>
+  <Section
   id="nacimiento-hermanos"
   title="El nacimiento de los tres hermanos"
   subtitle="Cuando la esperanza nació de los dioses"
@@ -217,7 +224,12 @@ const Genesis = () => {
   </p>
 </Section>
 
+</PageContainer>
 
+
+<PageContainer>
+
+  
 <Section
   id="sagrado-sello-omikami"
   title="El sagrado sello Omikami"
@@ -243,8 +255,10 @@ const Genesis = () => {
     Por esta razón Amaterasu decidió sacrificarse manifestando su última bendición, el legendario Omikami, una magia perpetua capaz de sellar el plano haciéndolo un universo donde ningún demonio maligno podría ingresar. Producto de semejante sacrificio nació el universo celeste, un universo apartado del plano oscuro donde las estrellas del destino podrían forjar sus almas dando esperanza a toda la existencia. Ese fue el fin de la era mitológica, y el comienzo de una nueva era en el universo celeste.
   </p>
 </Section>
+</PageContainer>
 
-</div>
+
+
 
 
         </main>
